@@ -1,7 +1,11 @@
 <script setup>
+import { ref } from 'vue';
+
 import FeatureCard from './components/FeatureCard.vue';
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import MyAccordion from './components/MyAccordion.vue';
+
 </script>
 
 <template>
@@ -16,6 +20,8 @@ import TheWelcome from './components/TheWelcome.vue'
     <HelloWorld msg="You did it!" />
     <!-- <TheWelcome /> -->
     <FeatureCard die="your twingcle" />
+
+    <MyAccordion />
   </div>
 </template>
 

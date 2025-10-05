@@ -19,7 +19,7 @@ import MyAccordion from './components/MyAccordion.vue';
   <div>
     <HelloWorld msg="You did it!" />
     <!-- <TheWelcome /> -->
-    <FeatureCard die="your twingcle" />
+    <!-- <FeatureCard die="your twingcle" /> -->
 
     <MyAccordion />
   </div>
